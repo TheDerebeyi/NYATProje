@@ -1,5 +1,5 @@
 package nesneYonelimliAnalizVeTasarimProje;
 
 public interface IAgArayuzu {
-	public void menu();
+	public MenuReturn menu();
 }

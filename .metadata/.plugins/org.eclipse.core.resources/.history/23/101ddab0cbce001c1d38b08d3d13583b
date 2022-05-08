@@ -1,0 +1,65 @@
+package nesneYonelimliAnalizVeTasarimProje;
+
+import java.util.Scanner;
+
+public class AgArayuzu implements IAgArayuzu{
+
+
+	public void menu() {
+
+		Scanner scanner = new Scanner(System.in);
+		String input;
+		
+		System.out.println("Giriþ yapýnýz\n"
+				+ "Kullanýcý adý: ");
+		
+		input = scanner.nextLine();
+		
+		
+		
+		do {
+			System.out.print("Menüden bir iþlem seçiniz:\n"
+					+ "1- Sýcaklýðý görüntüle\n"
+					+ "2- Soðutucuyu aç\n"
+					+ "3- Soðutucuyu kapat\n"
+					+ "0- Çýkýþ\n"
+					+ "Seçiminiz: ");
+			input = scanner.nextLine();
+		}
+		while(input != "0" && input != "1" && input != "2" && input !="3");
+		
+		switch(input) {
+		case "0":
+			System.exit(0);
+			break;
+		case "1":
+			System.out.println("Mevcut sýcaklýk: " + sicaklikGonder());
+			break;
+		case "2":
+			sogutucuAc();
+			break;
+		case "3":
+			sogutucuKapat();
+			break;
+		}
+		
+		scanner.close();
+		
+	}
+
+	private void sogutucuAc() {
+		
+	}
+	
+	private void sogutucuKapat() {
+		
+	}
+	
+	private String sicaklikGonder() {
+		return "";
+	}
+	
+	private String kullaniciAdiDogrula() {
+		return "";
+	}
+}

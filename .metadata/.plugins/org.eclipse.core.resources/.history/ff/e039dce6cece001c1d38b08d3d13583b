@@ -1,0 +1,11 @@
+package nesneYonelimliAnalizVeTasarimProje;
+
+public class Program {
+
+	public static void main(String[] args) {
+		AkilliCihaz akilliCihaz = new AkilliCihaz(); 
+		
+		akilliCihaz.Basla();
+	}
+
+}
