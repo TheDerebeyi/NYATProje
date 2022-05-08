@@ -1,0 +1,10 @@
+package nesneYonelimliAnalizVeTasarimProje;
+
+public class SicaklikAlgilayici implements ISicaklikAlgilayici{
+
+
+	public int sicaklikOku() {
+		return sogutucu.getSicaklik();
+	}
+
+}

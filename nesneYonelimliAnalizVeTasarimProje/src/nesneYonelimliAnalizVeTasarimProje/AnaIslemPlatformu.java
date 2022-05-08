@@ -29,14 +29,14 @@ public class AnaIslemPlatformu {
 	}
 	
 	private void sogutucuAc() {
-		eyleyici.sogutucuAc();
+		eyleyici.sogutucuAc(sogutucu);
 	}
 
 	private void sogutucuKapat() {
-		eyleyici.sogutucuKapat();
+		eyleyici.sogutucuKapat(sogutucu);
 	}
 
 	private void sicaklikGonder() {
-		System.out.println("Mevcut sýcaklýk: " + sicaklikAlgilayici.sicaklikOku());
+		System.out.println("Mevcut sýcaklýk: " + sicaklikAlgilayici.sicaklikOku(sogutucu));
 	}
 }

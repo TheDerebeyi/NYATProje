@@ -1,5 +1,5 @@
 package nesneYonelimliAnalizVeTasarimProje;
 
 public interface ISicaklikAlgilayici {
-	public float sicaklikOku();
+	public int sicaklikOku(ISogutucu sogutucu);
 }

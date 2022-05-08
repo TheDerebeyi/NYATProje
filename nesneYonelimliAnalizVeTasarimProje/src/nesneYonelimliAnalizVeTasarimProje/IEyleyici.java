@@ -1,6 +1,6 @@
 package nesneYonelimliAnalizVeTasarimProje;
 
 public interface IEyleyici {
-	public void sogutucuAc();
-	public void sogutucuKapat();
+	public void sogutucuAc(ISogutucu sogutucu);
+	public void sogutucuKapat(ISogutucu sogutucu);
 }

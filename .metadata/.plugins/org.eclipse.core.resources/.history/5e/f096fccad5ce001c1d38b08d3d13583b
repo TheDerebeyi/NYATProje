@@ -1,0 +1,6 @@
+package nesneYonelimliAnalizVeTasarimProje;
+
+public interface ISogutucu {
+	public float getSicaklik();
+	public void durumDegistir(Durumlar durum);
+}

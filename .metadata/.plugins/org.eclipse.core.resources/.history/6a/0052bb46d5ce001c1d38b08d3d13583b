@@ -1,0 +1,16 @@
+package nesneYonelimliAnalizVeTasarimProje;
+
+public class Sogutucu implements ISogutucu{
+
+
+	public float getSicaklik() {
+
+		return 0;
+	}
+
+	@Override
+	public void durumDegistir(Durumlar durum) {
+		return 0;
+	}
+
+}

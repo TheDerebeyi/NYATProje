@@ -1,0 +1,25 @@
+package nesneYonelimliAnalizVeTasarimProje;
+
+import java.util.Random;
+
+public class Sogutucu implements ISogutucu{
+
+	private float altSicaklikSinir;
+	private float ustSicaklikSinir;
+	
+	public Sogutucu() {
+		ustSicaklikSinir = (float) 20.1;
+		altSicaklikSinir = (float) -4.0;
+	}
+	
+	public float getSicaklik() {
+		Random rand = new Random();
+		return rand.nextFloat(ustSicaklikSinir)-altSicaklikSinir;
+	}
+
+	@Override
+	public void durumDegistir(Durumlar durum) {
+		return;
+	}
+
+}
