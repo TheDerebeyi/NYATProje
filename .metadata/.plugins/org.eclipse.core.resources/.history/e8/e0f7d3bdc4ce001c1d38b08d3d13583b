@@ -1,0 +1,14 @@
+package nesneYonelimliAnalizVeTasarimProje;
+
+public class AkilliCihaz {
+	public IEyleyici eyleyici;
+	public IAgArayuzu agArayuzu;
+	public ISicaklikAlgilayici sicaklikAlgilayici;
+	public Durumlar durum;
+	public ISogutucu sogutucu;
+
+	public AkilliCihaz() {
+		eyleyici = new Eyleyici();
+		agArayuzu = new AgArayuzu();
+	}
+}
