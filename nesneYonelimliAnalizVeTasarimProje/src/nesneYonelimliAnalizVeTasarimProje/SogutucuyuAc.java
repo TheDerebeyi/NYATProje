@@ -1,5 +1,7 @@
 package nesneYonelimliAnalizVeTasarimProje;
 
-public class SogutucuyuAc {
-
+public class SogutucuyuAc extends Islem{
+	public void IslemYap() {
+		
+	}
 }
