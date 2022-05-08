@@ -20,24 +20,9 @@ public class AgArayuzu implements IAgArayuzu{
 		}
 		while(input != "0" && input != "1" && input != "2" && input !="3");
 		
-		switch(input) {
-		case "0":
-			System.exit(0);
-			break;
-		case "1":
-			sicaklikGonder();
-			break;
-		case "2":
-			sogutucuAc();
-			break;
-		case "3":
-			sogutucuKapat();
-			break;
-		}
-		
 	}
 
-	private void sogutucuAc() {
+	private void sogutucuAC() {
 		
 	}
 	
@@ -46,6 +31,6 @@ public class AgArayuzu implements IAgArayuzu{
 	}
 	
 	private float sicaklikGonder() {
-		return 0;
+		
 	}
 }

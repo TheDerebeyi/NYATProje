@@ -1,0 +1,11 @@
+package nesneYonelimliAnalizVeTasarimProje;
+
+public class AgArayuzu implements IAgArayuzu{
+
+
+	public void menu() {
+
+		
+	}
+
+}
